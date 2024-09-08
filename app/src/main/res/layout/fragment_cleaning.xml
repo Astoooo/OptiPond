@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    tools:context=".Fragment.CleaningFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addCleaningDate_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Add cleaning date"
+            android:drawableStart="@drawable/baseline_add_24"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_primary_btn"
+            android:textSize="18sp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/calibribold"
+            android:drawableTint="@color/white"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

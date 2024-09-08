@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/cleaning"
+        android:title="Cleaning"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/daily"
+        android:title="Daily"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/weekly"
+        android:title="Weekly"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/monthly"
+        android:title="Monthly"
+        tools:ignore="HardcodedText" />
+</menu>
